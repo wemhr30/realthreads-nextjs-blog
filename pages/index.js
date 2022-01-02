@@ -22,9 +22,26 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>A collection of posts to explore web technologies, tools and workflows.</p>
+        <p>A personal project to explore web technologies, tools and workflows. Built with Next.js. Hosted on Vercel.</p>
       </section>
+     
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Projects</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem} key='1'>
+              <Link href='/projects/none-more-real'>
+                <a>None more real</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString= '2017-08-18'/>
+              </small>
+            </li>
+        </ul>
+      </section>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
