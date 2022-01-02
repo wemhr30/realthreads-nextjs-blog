@@ -26,7 +26,7 @@ export default function Post({ postData }) {
         // width={1080} 
         // height={1440}
         // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+        placeholder="blur" // Optional blur-up while loading
       />
     </article>
     </Layout>
