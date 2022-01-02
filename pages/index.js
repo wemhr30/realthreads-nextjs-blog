@@ -30,11 +30,20 @@ export default function Home({allPostsData}) {
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem} key='1'>
               <Link href='/projects/none-more-real'>
-                <a>None more real</a>
+                <a>None More Real</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString= '2017-08-18'/>
+              </small>
+            </li>
+            <li className={utilStyles.listItem} key='2'>
+              <Link href='/projects/home-school'>
+                <a>Lockdown Home School</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString= '2020-05-22'/>
               </small>
             </li>
         </ul>
