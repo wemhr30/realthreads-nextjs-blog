@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import Image from 'next/image'
-import realThread from '../../public/images/nmr-full.jpg'
+import realThread from '../../public/images/nmr-full-crop-2.jpg'
 
 export default function Post({ postData }) {
   return (
@@ -23,8 +23,8 @@ export default function Post({ postData }) {
       <Image
         src={realThread}
         alt="A cross stitch"
-        // width={1080} 
-        // height={1440}
+        // width={934} 
+        // height={924}
         // blurDataURL="data:..." automatically provided
         placeholder="blur" // Optional blur-up while loading
       />
