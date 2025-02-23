@@ -22,9 +22,15 @@ export default function Post({ postData }) {
       </div>
       <Image
         src={realThread}
+        sizes="100vw"
+        // Make the image display full width
+        style={{
+          width: '100%',
+          height: 'auto',
+        }}
         alt="A cross stitch"
-        width={934} 
-        height={924}
+        // width={934} automatically provided
+        // height={924} automatically provided
         // blurDataURL="data:..." automatically provided
         placeholder="blur" // Optional blur-up while loading
       />
