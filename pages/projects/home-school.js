@@ -7,7 +7,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-      <title>None More Real</title>
+      <title>Lockdown Home School</title>
       </Head>
       <article>
       <h1 className={utilStyles.headingXl}>Lockdown Home School</h1>

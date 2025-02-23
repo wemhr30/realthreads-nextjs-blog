@@ -47,7 +47,7 @@ export default function Home({allPostsData}) {
               </small>
             </li>
             <li className={utilStyles.listItem} key='3'>
-              <Link href='/projects/apple-interactive'>
+              <Link href='/projects/apple-interactive2'>
                 <a>Interactive Data Vizualization</a>
               </Link>
               <br />
