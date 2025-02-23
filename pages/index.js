@@ -28,13 +28,13 @@ export default function Home({allPostsData}) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
-          <li className={utilStyles.listItem} key='3'>
-              <Link href='/projects/none-more-real'>
-                <a>None More Real</a>
+            <li className={utilStyles.listItem} key='1'>
+              <Link href='/projects/apple-interactive2'>
+                <a>Interactive Data Vizualization</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString= '2017-08-18'/>
+                <Date dateString= '2021-12-26'/>
               </small>
             </li>
             <li className={utilStyles.listItem} key='2'>
@@ -46,13 +46,13 @@ export default function Home({allPostsData}) {
                 <Date dateString= '2020-05-22'/>
               </small>
             </li>
-            <li className={utilStyles.listItem} key='1'>
-              <Link href='/projects/apple-interactive2'>
-                <a>Interactive Data Vizualization</a>
+            <li className={utilStyles.listItem} key='3'>
+              <Link href='/projects/none-more-real'>
+                <a>None More Real</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString= '2021-12-26'/>
+                <Date dateString= '2017-08-18'/>
               </small>
             </li>
         </ul>
