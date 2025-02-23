@@ -46,6 +46,15 @@ export default function Home({allPostsData}) {
                 <Date dateString= '2020-05-22'/>
               </small>
             </li>
+            <li className={utilStyles.listItem} key='3'>
+              <Link href='/projects/apple-interactive'>
+                <a>Interactive Data Vizualization</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString= '2021-12-26'/>
+              </small>
+            </li>
         </ul>
       </section>
 
