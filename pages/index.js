@@ -28,7 +28,7 @@ export default function Home({allPostsData}) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
-          <li className={utilStyles.listItem} key='1'>
+          <li className={utilStyles.listItem} key='3'>
               <Link href='/projects/none-more-real'>
                 <a>None More Real</a>
               </Link>
@@ -46,7 +46,7 @@ export default function Home({allPostsData}) {
                 <Date dateString= '2020-05-22'/>
               </small>
             </li>
-            <li className={utilStyles.listItem} key='3'>
+            <li className={utilStyles.listItem} key='1'>
               <Link href='/projects/apple-interactive2'>
                 <a>Interactive Data Vizualization</a>
               </Link>
