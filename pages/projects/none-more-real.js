@@ -23,8 +23,8 @@ export default function Post({ postData }) {
       <Image
         src={realThread}
         alt="A cross stitch"
-        // width={934} 
-        // height={924}
+        width={934} 
+        height={924}
         // blurDataURL="data:..." automatically provided
         placeholder="blur" // Optional blur-up while loading
       />
