@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Loose Threads'
-export const siteTitle = 'Loose Threads'
+const name = 'Real Threads'
+export const siteTitle = 'Real Threads'
 
 export default function Layout({ children, home }) {
   return (
