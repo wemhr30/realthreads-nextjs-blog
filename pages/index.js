@@ -30,7 +30,7 @@ export default function Home({allPostsData}) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString= '2021-12-26'/>
+                <Date dateString= '2024-02-03'/>
               </small>
             </li>
             <li className={utilStyles.listItem} key='2'>
