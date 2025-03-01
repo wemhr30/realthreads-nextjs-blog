@@ -18,7 +18,7 @@ export default function Post({ postData }) {
         </div>
         <div >
         <ReactAudioPlayer
-          src="../../public/audio/year-of-the-flood.m4a"
+          src="/public/audio/year-of-the-flood.ogg"
           autoPlay
           controls
         />
