@@ -26,8 +26,8 @@ export default function Home({allPostsData}) {
       <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
         <li className={utilStyles.listItem} key='1'>
-              <Link href='/projects/year-of-the-flood'>
-                <a>Interactive Data Vizualization</a>
+              <Link href='/projects/audio-player'>
+                <a>Year of the Flood</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
