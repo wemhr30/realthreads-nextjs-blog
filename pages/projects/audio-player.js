@@ -15,7 +15,8 @@ export default function Post({ postData }) {
           <Date dateString= '2024-02-03'/>
         </div>
         <div >
-          <audio controls>
+          <audio controls
+            preload="none">
             <source src="https://njmtcajtgvjvkllw.public.blob.vercel-storage.com/audio/year-of-the-flood-mrAl14kO9Ck7ozahreWfYg08sjjs0d.ogg" type="audio/mpeg"/>
             Your browser does not support the audio element.
           </audio>
