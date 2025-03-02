@@ -17,7 +17,7 @@ export default function Post({ postData }) {
         <div >
           <audio controls
             preload="none">
-            <source src="https://njmtcajtgvjvkllw.public.blob.vercel-storage.com/audio/year-of-the-flood-mrAl14kO9Ck7ozahreWfYg08sjjs0d.ogg" type="audio/mpeg"/>
+            <source src="https://realthreads-media.s3.us-east-2.amazonaws.com/year-of-the-flood.ogg" type="audio/mpeg"/>
             Your browser does not support the audio element.
           </audio>
         </div>
